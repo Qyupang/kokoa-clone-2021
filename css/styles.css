@@ -1,15 +1,19 @@
-/* google font에 가서 추가 폰트를 너무 많이 추가하면 무거워짐*/
+/* google font에 가서 추가 폰트를 너무 많이 추가하면 무거워짐 import되는 순서가 중요하다.*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 @import "reset.css";
-@import "components/status-bar.css";
-
-/* COMPONENTS */
 @import "variables.css";
 
+/* COMPONENTS */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
     font-family: "Open Sans", sans-serif;
+    color: #2e363e;
 }
