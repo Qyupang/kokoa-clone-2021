@@ -11,7 +11,6 @@
 @import "components/user-components.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
-@import "components/alternative-screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -19,6 +18,8 @@
 @import "screens/find.css";
 @import "screens/more.css"; 
 @import "screens/settings.css"; 
+@import "screens/alternative-screen-header.css";
+@import "screens/chat.css";
 
 body {
     font-family: "Open Sans", sans-serif;
